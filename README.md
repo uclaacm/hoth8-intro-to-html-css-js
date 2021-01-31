@@ -196,13 +196,20 @@ programmatically change a webpage.
 ### Our function:
 - In script.js:
 ```
-document.getElementById('last').onclick = () => {
-  document.getElementById('last').innerHTML = 'Secret message'; };
+var clicks = 0;
+function myFunction() {
+  clicks += 1;
+  document.getElementById("clicks").innerHTML = clicks;
+}
+
+HTML Portion:
+<button type="button" onClick="myFunction()">Click Me!!</button>
+<p>Clicks: <p id="clicks">0</p></p>
 ```
 - The () => {} syntax is a fancy way to declare a function in JavaScript
 - Document is a global variable that is used to represent the DOM
-- The first line of the function is saying, "after the window has loaded(onload), execute the following function."
-- The second and third line mean: "for the element with id last from the DOM, change its innerHTML content to 'Secret message' when it is clicked.
+- Basically, when the button is pressed, our function will be called. And in our function, the variable clicks is incremented, and is then set as the
+    inner HTML value of the element with id "clicks", which is right under our button
 
 
 ### That is all for today, thank you so much for listening and I wish you luck in your HOTH 8 experience!
