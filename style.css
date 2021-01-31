@@ -1,0 +1,31 @@
+h1
+{
+    font-size: 36px;
+    font-family: 'Comic Sans MS';
+    color: red;
+}
+
+.listHead
+{
+    font-size: 50px;
+    color: purple;
+    text-align: center;
+}
+
+.listPoints
+{
+    font-size: 30px;
+    color: darkgoldenrod;
+    text-align: center;
+}
+
+#animals
+{
+    text-align: right;
+}
+
+button
+{
+    color: darkgoldenrod;
+    margin: 20px;
+}
