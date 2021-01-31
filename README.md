@@ -178,8 +178,7 @@ interactive is through a language called JavaScript, where we can change text, c
 a whole by the DOM. 
 - We can also run JavaScript in the console of Chrome Developer Tools! The console allows you to print the value of variables, as well as many other things. 
 The function getElementById allows you to get a particular element from the DOM based on its id. The attribute onclick of an element can be set to a function 
-that determines what happens when the element is clicked. The attribute innerHTML refers to the text between the tags of an element. In this case,
-we are setting the onclick attribute to a function that sets the element with id 'acm-title' to have the text of 'Secret message'
+that determines what happens when the element is clicked. The attribute innerHTML refers to the text between the tags of an element. In this case, we are creating a function for our button so that when we click it, a counter will increment.
 
 ## Key Takeaway
 - These concepts may be confusing, but the most important thing to takeaway is a general idea of how JavaScript looks and a general understanding of how it can be used 
